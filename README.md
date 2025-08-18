@@ -15,7 +15,12 @@
       - [Backend (Django)](#backend-django)
       - [Frontend (React)](#frontend-react)
       - [Recipe Extractor (Custom Python Service)](#recipe-extractor-custom-python-service)
-  - [Environment Variables](#environment-variables) - [CloudAMQP URL](#cloudamqp-url) - [USDA FDC API Key](#usda-fdc-api-key) - [OpenAI API Key](#openai-api-key) - [Docker configuration](#docker-configuration) - [Local run](#local-run)
+  - [Environment Variables](#environment-variables)
+  - [CloudAMQP URL](#cloudamqp-url)
+  - [USDA FDC API Key](#usda-fdc-api-key)
+  - [OpenAI API Key](#openai-api-key)
+  - [Docker configuration](#docker-configuration)
+  - [Local run](#local-run)
   <!--toc:end-->
 
 <div align="center">
@@ -29,16 +34,16 @@ Smart meal planning & shopping app for ECE 493 W2025, group 6.
 
 This is a micro-service application that consists of the following components:
 
-- **Backend**: A Django-based API service.
-- **Frontend**: A React-based frontend application.
+- **Backend**: Django-based.
+- **Frontend**: React-based.
 - **Recipe Extractor**: A custom Python service for scraping and processing recipe data.
-- **Database**: Database for sotring user information
+- **Database**: PostgreSQL based for storing user information
 
 The application can be used/ran in different environments using the following methods:
 
 - **Google Cloud Platform**
 - **Docker**
-- **Local Development** (Very Manual setup)
+- **Local Development** (Very manual setup)
 
 ---
 
@@ -80,13 +85,13 @@ Installation of docker can be found here: <https://docs.docker.com/engine/instal
 
 Create a Python virtual environment
 
-```
+```bash
 python -m venv .mealchemyEnv
 ```
 
 Start environemnt
 
-```
+```bash
 source .mealchemyEnv/bin/activate
 ```
 
@@ -94,7 +99,7 @@ source .mealchemyEnv/bin/activate
 
 ### 1. Cloud Deployment
 
-To see the fully deployed application visit [mealchemy.app](https://www.mealchemy.app)
+To see the fully deployed application visit ~~[mealchemy.app](https://www.mealchemy.app)~~
 
 ### 2. Docker Deployment
 

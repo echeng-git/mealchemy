@@ -15,12 +15,12 @@
       - [Backend (Django)](#backend-django)
       - [Frontend (React)](#frontend-react)
       - [Recipe Extractor (Custom Python Service)](#recipe-extractor-custom-python-service)
-  - [Environment Variables](#environment-variables)
-  - [CloudAMQP URL](#cloudamqp-url)
-  - [USDA FDC API Key](#usda-fdc-api-key)
-  - [OpenAI API Key](#openai-api-key)
-  - [Docker configuration](#docker-configuration)
-  - [Local run](#local-run)
+    - [Environment Variables](#environment-variables)
+    - [CloudAMQP URL](#cloudamqp-url)
+    - [USDA FDC API Key](#usda-fdc-api-key)
+    - [OpenAI API Key](#openai-api-key)
+    - [Docker configuration](#docker-configuration)
+    - [Local run](#local-run)
   <!--toc:end-->
 
 <div align="center">

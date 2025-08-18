@@ -285,9 +285,9 @@ DATABASE_URL = "postgres://postgres:root@db:5432/db"
 
 ### Local run
 
-If you are running locally, you need to have your postgres installation and point the url to your database and user credentials. If this is too difficult you can also directly use a sqlite3 instance with the. Simply unset the databse url environment variable using `unset DATABASE_URL` and comment it out in your .env. This will use a sqlite3 instance instead.
+If you are running locally, you need to have your Postgres installation and point the url to your database and user credentials. You can also directly use a sqlite3 instance in place of Postgres. Simply unset the databse url environment variable using `unset DATABASE_URL` and comment it out in your .env.
 
-make sure to set `DOCKER="False"` like in the example below:
+Make sure to set `DOCKER="False"` like in the example below:
 
 ```env
 ## Global
@@ -391,9 +391,9 @@ DATABASE_URL="postgresql://<user>:<password>@localhost:5432/<database_name>"
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/c6d07231-1607-4828-8224-bdc22a6eb6d7" />
   </div>
   
-- The ingredients can be crossed out by checking the boxes, this will reset when the page is refreshed
-- If the aisle is incorrect for the ingredient, the ingredient can be moved and entering the correct aisle in the modal
-- The recipe can also be removed from the Shopping List by clicking on the checkbox in the Recipes box. This will also remove the ingredients in the Shopping List
+- The ingredients can be crossed out by checking the boxes, this will reset when the page is refreshed.
+- If the aisle is incorrect for the ingredient, the ingredient can be moved and entering the correct aisle in the modal.
+- The recipe can also be removed from the Shopping List by clicking on the checkbox in the Recipes box. This will also remove the ingredients in the Shopping List.
 
 ### User Profile
 
